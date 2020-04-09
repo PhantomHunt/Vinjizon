@@ -1,0 +1,141 @@
+/* For Product Details */
+
+html
+{
+	background-image:url('/MyProject/IMG/star.png');
+}
+
+#header
+{
+	padding:50px;
+	text-align:center;
+	height:48px;
+}
+
+#header span
+{		
+	display:block;
+	text-align:center;	
+	min-width:1000px;
+}
+
+@keyframes vinjizon 
+{
+    0% {color: darkblue;}
+    25% {color: white;} 
+	50% {color: cyan;}
+	75% {color: darkgreen;}
+	100% {color: goldenrod;}
+}
+
+#header span a
+{
+	animation-direction: alternate;
+	animation-name: vinjizon;
+    animation-duration:3s;
+	animation-iteration-count: infinite;
+	padding:30px;
+	text-decoration:none;
+	background-image:url('/MyProject/IMG/images.jpg');	
+	border-bottom-color:orangered;
+	font-family:'monotype corsiva';
+	border-bottom-right-radius:90px;
+	border-bottom-left-radius:40px;
+	border-top-left-radius:90px;
+	border-top-right-radius:5px;	
+	font-size:45px;
+	border-bottom-style:groove;
+	border-left-style:groove;
+	border-bottom-color:orangered;
+	border-left-color:orangered;
+	transition:border-radius 3s;
+}
+
+#header span a:hover
+{
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:90px;
+	border-top-left-radius:40px;
+	border-top-right-radius:90px;
+	transition:border-radius 3s;
+}
+
+#ldiv
+{
+	position:relative;
+	background-color:white;
+	text-align:center;
+	padding:10px;
+	margin-top:0px;
+	height:445px;
+	float:left;
+	border:3px solid goldenrod;
+	border-right:0px;
+}
+
+
+#ldiv img
+{
+	height:390px;
+	width:352px;
+	margin-top:30px;
+}
+
+#ldiv img:hover
+{
+	opacity:0.5;
+}
+
+#rdiv
+{
+	position:relative;
+	min-width:900px;
+	margin-top:0px;
+	padding:5px;
+	margin-left:375px;	
+	border:3px solid goldenrod;
+	border-left:0px;
+	height:455px;
+	text-align:center;		
+	background-color:white;
+	font-size:20px;
+}
+
+#rdiv h1
+{
+	color:black;
+	font-family:monotype corsiva;
+	font-size:40px;
+}
+
+#rdiv h2
+{
+	color:darkred;
+	font-size:30px;
+}
+
+#rdiv div
+{
+	margin-top:120px;	
+	display:inline-block;
+}
+
+#rdiv div a
+{
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	padding:20px;
+	transition:padding 1s;
+	border:2px solid darkgreen;	
+	border-radius:5px;
+	background-color:forestgreen;
+}
+
+#rdiv div a:hover
+{
+	transition:padding 1s;
+	background-color:darkgreen;
+	border:2px solid lightgreen;	
+	padding:30px;
+}

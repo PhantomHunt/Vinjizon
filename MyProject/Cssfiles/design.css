@@ -1,0 +1,324 @@
+/*     FOR RETAILER INTERFACE     */
+
+html
+{ 
+	background-image:url('/MyProject/IMG/star.png');
+}
+
+h2
+{
+	color:red;
+	font-size:30px;
+	font-family:"verdana";
+	text-align:left;
+}
+
+
+#header
+{	
+	padding:50px;
+	min-width:1000px;
+}
+
+#header span
+{		
+	display:block;
+	text-align:center;
+}
+
+@keyframes vinjizon 
+{
+    from {background-color: black;}
+    to {background-color: maroon;} 
+}
+
+#header span a
+{
+	color:darkgoldenrod;
+	padding:30px;
+	animation-direction: alternate;
+	text-decoration:none;
+	background-color: black;
+    animation-name: vinjizon;
+    animation-duration:2s;
+	animation-iteration-count: infinite;
+	border-bottom-color:orangered;
+	font-family:'monotype corsiva';
+	border-bottom-right-radius:90px;
+	border-bottom-left-radius:40px;
+	border-top-left-radius:90px;
+	border-top-right-radius:5px;	
+	font-size:50px;
+	border-bottom-style:groove;
+	border-left-style:groove;
+	border-bottom-color:darkcyan;
+	border-left-color:darkcyan;
+}
+
+#ldiv
+{
+	position:relative;
+	margin:0px;
+	float:left;
+}
+
+#ldiv ul
+{
+	margin:0px;
+	display:inline-block;
+	padding:5px;
+	list-style-type:none;
+	
+}
+
+#ldiv ul li a
+{	
+	border:1px groove orange;
+	font-family:monotype corsiva;
+	background-color:black;
+	text-decoration:none;
+	color:orange;
+	font-size:22px;
+	display:block;
+	text-align:center;
+	padding:16px 24px;
+	width:95px;
+	margin:5px;
+	margin-top:35px;
+	margin-bottom:35px;
+	transition-duration:1s;
+	border-top-left-radius:60%;
+	border-bottom-right-radius:60%;
+}
+
+#ldiv ul li a:hover
+{
+	transform: rotate(360deg);
+	border-radius:100%;
+	border-bottom-style:groove;
+	padding:16px 24px;
+	border-color:cyan;
+}
+
+#rdiv
+{
+	position:relative;
+	min-height:410px;
+	min-width:1000px;
+	max-height:410px;
+	margin-left:175px;	
+	text-align:center;
+	padding:12px;
+	font-size:20px;
+	overflow:auto;
+}
+
+#rdiv::-webkit-scrollbar
+{
+    width: 13px;
+}
+
+#rdiv::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+}
+
+#rdiv:hover::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px 
+						rgba(0,0,0,0.9);
+	border:2px groove black;
+	background: #444444;
+}
+ 
+#rdiv::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+	background-color: #F90;	
+	border:2px groove black;
+	background-image: -webkit-linear-gradient(45deg,
+	                    rgba(255, 255, 255, .2) 25%,
+						transparent 5%,
+						transparent 50%,
+						rgba(255, 255, 255, .2) 50%,
+						rgba(255, 255, 255, .2) 75%,
+						transparent 5%,
+						transparent);
+	
+}
+/*#ldiv ul
+{
+	margin:0px;
+	padding:5px;
+	list-style-type:none;	
+}
+
+#ldiv ul li a
+{	
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	font-size:20px;
+	display:block;
+	padding:25px;
+	width:95px;
+	margin:5px;
+	margin-top:35px;
+	margin-bottom:35px;
+	border-bottom-left-radius:60px;
+	border-top-right-radius:60px;
+	transition: border-radius 3s;
+}
+
+#ldiv ul li a:hover
+{	
+	border-top-left-radius:220px;
+	border-bottom-right-radius:220px;
+	transition: border-radius 2s;
+}*/
+
+#delcat ul
+{
+	margin:0px;
+	padding:5px;
+	list-style-type:none;		
+}
+
+
+#delcat ul li a
+{
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+	padding:15px;
+	
+}
+
+#delcat ul div
+{
+	display: inline-block;
+	margin-left:30px;
+	border:2px groove black ;
+	border-radius:15px;	
+	transition: border-radius 3s;
+	padding:15px;	
+}
+
+#delcat ul div:hover
+{	
+	opacity:0.8;
+	border-bottom-left-radius:90px;
+	border-top-right-radius:90px;
+	transition: border-radius 2s;
+}
+
+#table
+{
+	border:5px groove white;
+	background-image:url('/MyProject/IMG/xmas-wallpaper.jpg');
+	width:605px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:5px;
+}
+
+#table td
+{	
+	padding:15px;
+	border:2px groove white;
+}
+#first
+{
+	border-radius:30px;
+}
+
+#odd
+{
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+
+#even
+{
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	text-align:center;
+	
+}
+
+
+#table	tr:nth-child(odd)
+{
+	background-color:darkcyan;
+	font-size:18px;	
+	text-align:center;
+	color:white;
+	
+}
+
+#table	tr:nth-child(even)
+{
+	background-color:olivedrab;
+	font-size:18px;
+	color:white;
+	text-align:center;
+	
+}
+
+#table	tr:first-child
+{
+	background-color:darkgreen;
+	font-size:25px;
+	color:white;
+	text-align:center;
+	vertical-align:center;
+}
+#table	tr:last-child
+{
+	background-image:url('/MyProject/IMG/bgimage.jpg');
+	font-size:35px;
+	color:white;
+	text-align:center;
+}
+#table	tr:nth-child(2)
+{
+	font-size:20px;
+	color:black;
+	text-align:center;
+	background-color:orangered;
+}	
+
+#submit
+{		
+	background-color:Gray;
+	color:black;	
+	width:140px;
+	height:50px;	
+	font-size:25px;
+	font-weight:800px;
+	border: 3px groove black;	
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	transition: border-radius 3s;
+}
+
+#submit:hover
+{
+	background-color:goldenrod;
+	color:black;
+	font-size:25px;
+	font-weight:800px;
+	border-bottom-right-radius:90px;
+	border-top-left-radius:90px;
+	border: 3px groove black;
+	transition: border-radius 3s;	
+}
+
+#footer
+{
+	color:royalblue;
+	text-align: right;
+	clear:left;
+}

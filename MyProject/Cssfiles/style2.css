@@ -1,0 +1,289 @@
+/*For Customer interface*/
+
+.box
+{
+	width:200px;
+	height: 295px;
+	border-radius:10px;
+	margin-left:3px;
+	padding:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right:2px;
+	font-size:14px;
+	border-radius:10px;
+	display: inline-block;
+}
+
+.box:hover
+{	
+	outline:5px white groove;
+}
+
+.box span
+{
+	font-size:15px;
+	color:green;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+
+.box h2
+{
+	color:black;
+	padding:0px;
+	margin:0px;	
+	font-size:18px;
+	text-align:center;
+}
+
+html
+{ 
+	background-image:url('/MyProject/IMG/tile.jpg');
+}
+
+img
+{
+	height:80%;
+	width:70%;	
+}
+
+img:hover
+{
+	opacity:0.5;
+}
+
+#header
+{
+	padding:25px;
+	text-align:center;
+	background-image:url('/MyProject/IMG/star.png');
+	left: 0px;
+	height:50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header span
+{		
+	display:block;	
+}
+
+@keyframes vinjizon 
+{
+    0% {color: darkblue;}
+    25% {color: white;} 
+	50% {color: cyan;}
+	75% {color: darkgreen;}
+	100% {color: goldenrod;}
+}
+
+#header span a
+{
+	animation-direction: alternate;
+	animation-name: vinjizon;
+    animation-duration:3s;
+	animation-iteration-count: infinite;
+	padding:30px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-decoration:none;
+	background-image:url('/MyProject/IMG/images.jpg');	
+	border-bottom-color:orangered;
+	font-family:'monotype corsiva';
+	border-bottom-right-radius:90px;
+	border-bottom-left-radius:40px;
+	border-top-left-radius:90px;
+	border-top-right-radius:5px;	
+	font-size:45px;
+	border-bottom-style:groove;
+	border-left-style:groove;
+	border-bottom-color:orangered;
+	border-left-color:orangered;
+	transition:border-radius 3s;
+}
+
+#header span a:hover
+{
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:90px;
+	border-top-left-radius:40px;
+	border-top-right-radius:90px;
+	transition:border-radius 3s;
+}
+
+#offers ul {
+    list-style-type: none;
+	margin-left:-8px;
+	margin-top:100px;
+	margin-bottom:0px;
+    padding:2px;
+	height:46px;
+    overflow: hidden;	
+	min-width:1345px;
+    background-image:url('/MyProject/IMG/star.png');
+}
+
+#offers li 
+{
+    float: right;
+}
+
+#offers li a
+{
+    display: inline-block;
+    color: white;		
+	border-radius:2px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;	
+	transition:background-color 1s;
+}
+
+#offers li a:hover
+{
+    background-color: red;
+	transition:background-color 1.5s;
+}
+
+#ldiv
+{
+	position:relative;
+	margin:0px;
+	float:left;
+}
+
+#ldiv ul
+{
+	margin-top:-30px;
+	padding:5px;
+	list-style-type:none;	
+}
+
+#ldiv ul li a
+{	
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	font-size:20px;
+	display:block;
+	padding:15px;
+	height:24px;
+	width:95px;
+	margin:5px;
+	margin-top:35px;
+	margin-bottom:35px;
+	border-bottom-left-radius:60px;
+	border-top-right-radius:60px;
+	transition: border-radius 3s;
+}
+
+#ldiv ul li a:hover
+{	
+	border-top-left-radius:220px;
+	border-bottom-right-radius:220px;
+	transition: border-radius 2s;
+}
+
+#rdiv
+{
+	position:relative;
+	min-width:1164px;
+	margin:3px;
+	padding:5px;
+	margin-left:149px;		
+	text-align:center;		
+	font-size:20px;
+}
+
+#banner
+{
+	border:3px groove white;
+	margin:0px;	
+	position:relative;
+	height:300px;
+	width:100%;
+	background-color:black;
+}
+
+#cimg
+{
+	height:100%;
+	width:100%;
+	display: block;
+	position: absolute;	
+}
+		
+#prev
+{
+	display:block;
+	position:absolute;
+	height:60px;
+	border-radius:90%;
+	width:60px;
+	top:130px;
+	opacity:0.6;
+	left:20px;
+}
+
+#next
+{
+	right:20px;
+	display:block;
+	position:absolute;
+	height:60px;
+	border-radius:90%;
+	opacity:0.6;
+	width:60px;
+	top:130px;
+}
+
+#cimg:hover
+{
+	opacity:1;
+}
+
+#next:hover
+{
+	opacity:1;
+}
+
+#prev:hover
+{
+	opacity:1;
+}
+#fields
+{
+	border:3px groove white;
+	margin-top:10px;	
+	background-color:white;
+}
+
+#fields a
+{
+	text-decoration:none;
+}
+
+#fields h3
+{
+	border:3px groove lightsteelblue;
+	margin:15px;
+	display:block;
+	text-align:left;
+	background-color:lightsteelblue;
+	color:black;
+	font-size:25px;
+	font-family:monotype corsiva;
+	padding-left:20px;
+}
+
+#footer
+{
+	color:royalblue;
+	min-width:1310px;
+	text-align: right;
+	clear:left;
+}

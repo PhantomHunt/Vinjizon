@@ -1,0 +1,24 @@
+html
+{
+	color:white;
+	background:black;
+	min-width:1000px;
+	text-align:center;
+}
+
+#table
+{
+	width:800px;
+	border:5px groove white;
+	height:550px;
+	text-align:center;
+	margin:20px;
+	margin-left:280px;
+	background:goldenrod;
+}
+
+#table td
+{
+	background:black;
+	border-radius:15px;
+}
